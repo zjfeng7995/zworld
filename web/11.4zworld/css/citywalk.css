@@ -1,0 +1,134 @@
+a{
+	color: #323232;
+}
+a:hover{
+	color: #0DB12C;
+	text-decoration: none;
+}
+#main{
+	width: 100%;
+	margin-top: -4px;
+}
+#navBox{
+	width: 75%;
+	height: 88px;
+	margin: 0 auto;
+	
+}
+#navBox img{
+	float: left;
+	margin-top: 27px;
+}
+#navBox input{
+	width: 65%;
+	height: 35px;
+	margin: 27px 0 0 50px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	background: #ECECEC;
+	padding-left: 20px;
+}
+#navBox div{
+	float: right;
+	width: 170px;
+	line-height: 35px;
+	margin-top: 30px;
+	color: #CCCCCC;
+}
+#navBox div span{
+	margin: 0 15px 0 15px;
+	cursor: pointer;
+}
+#banner{
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #0DB12C;
+}
+#banner ul{
+	width: 75%;
+	height: 20px;
+	margin: 0 auto;
+}
+#banner ul li{
+	width: 103px;
+	float: left;
+	text-align: center;
+}
+#banner ul li:first-of-type{
+	width: 138px;
+	border-right: 1px solid silver;
+}
+#banner ul li:not(:last-of-type) a{
+	color: #323232;
+}
+#banner ul li a:hover{
+	color: #14CEA5;
+	text-decoration: none;
+}
+#main{
+	width: 100%;
+	margin-top: 0px;
+	background: #32312d;
+}
+#main img{
+	width: 100%;
+}
+#main>p{
+	width: 75%;
+	height: 100px;
+	margin: 0 auto;
+	padding: 25px 0 0 25px;
+	background: #FFFFFF;
+	color: #333333;
+}
+#main span{
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+#main>p a{
+	padding:3px 5px ;
+	color: #333333;
+	margin-left: 11px;
+}
+#main>p a:nth-of-type(14){
+	color: #14CEA5;
+}
+#main>p a:first-of-type{
+	color: #FFFFFF;
+	background: #14CEA5;
+}
+#main>p a:hover{
+	color: #FFFFFF;
+	background: #14CEA5;
+	text-decoration: none;
+}
+#main h6{
+	width: 75%;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 40px auto;
+}
+#main h6 span:first-of-type{
+	color: #14CEA5;
+	margin-left: 5px;
+}
+#main h6 span:last-of-type{
+	color: #fff;
+	font-size: 13px;
+	font-weight: normal;
+	margin-left: 5px;
+}
+#main a,#main input{
+	margin-left: 30px;
+	color: #fff;
+}
+#main #content{
+	width: 75%;
+	margin: 0 auto;
+	background: red;
+	min-height: 1000px;
+}
